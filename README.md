@@ -116,15 +116,20 @@ Após comparar diversas distribuições Linux, a escolha recaiu sobre o **Ubuntu
    - **Nome:** VM-EDUCU
    - **Tipo:** Linux
    - **Versão:** Ubuntu 22.04.5 LTS (Jammy Jellyfish)
-
+   
+![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/1.png?raw=true)
 
 2. **Configuração de Memória:**
    - Alocar **4096 MB** de memória RAM para a máquina virtual.
+  
+![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/2.png?raw=true)
 
 4. **Criação do Disco Rígido Virtual:**
    - Selecione a opção **Criar disco rígido agora**.
    - Escolha o tipo de arquivo de disco **VDI (VirtualBox Disk Image)**.
    - Selecione a opção **dinâmico** para o tamanho do disco (por exemplo, **2 GB**).
+  
+![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/3.png?raw=true)
 
 #### 3. Configuração de Rede
 
