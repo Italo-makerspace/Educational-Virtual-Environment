@@ -133,8 +133,12 @@ Após comparar diversas distribuições Linux, a escolha recaiu sobre o **Ubuntu
 
 #### 3. Configuração de Rede
 
+![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/5.png?raw=true)
+
 1. Selecione a máquina virtual criada e clique em **Configurações**.
 2. Acesse a aba **Rede** e configure como **NAT** 
+
+![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/5.png?raw=true)
 
 #### 4. Configuração do Disco de Instalação
 
@@ -150,7 +154,7 @@ Após comparar diversas distribuições Linux, a escolha recaiu sobre o **Ubuntu
    - Selecione o idioma de preferência.
    - Escolha as configurações de teclado.
    - Configure a rede e a instalação.
-   - Se solicitado, conecte à internet para atualizações (opcional).
+   - Se solicitado, conecte à internet para atualizações.
 
 ```bash
 mysql --version
@@ -199,9 +203,4 @@ Apesar do projeto ter sido concluído com sucesso, sempre existem áreas para me
 
 6. **Implementar Soluções de Backup e Recuperação:**
    - Implementar uma solução de backup para ambientes virtuais e sistemas operacionais seria uma medida importante para garantir a proteção dos dados. Isso é especialmente relevante em projetos educacionais, onde a perda de dados pode afetar negativamente o andamento das atividades.
-  
-https://drive.google.com/file/d/1HNyJmnUlyzWilSpRo0wHW__ILilnd4ea/view?usp=drive_link
-https://drive.google.com/file/d/1rnceFe2qzh-qZshZMv-WEstpSY1ABYlI/view?usp=drive_link
-https://drive.google.com/file/d/1aYFJ1YVX5na-tJOKt-ubmfL9M6R3Uh_X/view?usp=drive_link
-https://drive.google.com/file/d/10gpKvrtkkc1ZZizuKejrjMCjpQzAXnif/view?usp=drive_link
 
