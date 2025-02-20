@@ -61,14 +61,14 @@ Este projeto tem como objetivo criar um ambiente virtual para fins educacionais,
   - Justificativa: Fonte de alimentação de alta qualidade com 850W, eficiência 80 Plus Gold e certificação PCIe 5, que garante estabilidade e segurança para o sistema.
   - [Link para Fonte](https://www.kabum.com.br/produto/103273/fonte-msi-mag-a850gl-pcie5-850w-80-plus-gold-full-modular)
 
-### Teclado Gamer
+### Teclado
 
-- **Teclado Gamer Redragon Lakshmi, Switch Brown, Layout 60%, ABNT2**
+- **Teclado Redragon Lakshmi, Switch Brown, Layout 60%, ABNT2**
   - Preço aproximado: R$ 300,00
   - Justificativa: Teclado compacto e eficiente, com switches mecânicos tipo Brown, ideal para jogos e produtividade. O layout ABNT2 é compatível com o padrão brasileiro.
   - [Link para Teclado](https://www.kabum.com.br/produto/117801/teclado-gamer-redragon-lakshmi-switch-brown-layout-60-abnt2)
 
-### Mouse Gamer
+### Mouse
 
 - **Mouse Redragon Cobra Chroma M711**
   - Preço aproximado: R$ 100,00
@@ -81,8 +81,20 @@ Este projeto tem como objetivo criar um ambiente virtual para fins educacionais,
   - Preço aproximado: R$ 1.100,00
   - Justificativa: Monitor com boa resolução e taxa de atualização de 100 Hz, oferecendo uma experiência visual mais fluida e confortável para o trabalho.
   - [Link para Monitor](https://www.kabum.com.br/produto/122345/monitor-aoc-24g2e1-23-8-1920-x-1080-100-hz)
- 
-  #### Total: R$4730,00
+ ---
+  ### Total: R$4730,00
+
+---
+## Configuração
+
+- Processador: AMD Ryzen 5 5600G
+- Memória RAM: Corsair Vengeance LPX 32GB (2x16GB) 3200MHz DDR4
+- Armazenamento (SSD): Sandisk Plus 500GB NVMe M.2
+- Placa-Mãe: ASRock B450M Steel Legend Micro ATX AM4
+- Fonte de Alimentação: MSI MAG A850GL 850W 80 Plus Gold
+- Teclado: Redragon Lakshmi Switch Brown Layout 60% ABNT2
+- Mouse: Redragon Cobra Chroma M711
+- Monitor: AOC 24G2E1 23.8″ 100Hz
 
 ---
 
