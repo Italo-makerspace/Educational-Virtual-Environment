@@ -1,218 +1,277 @@
-# Ambiente Virtual Educacional
+Educational Virtual Environment
+===============================
 
-## Introdução
+Introduction
+------------
 
-Este projeto tem como objetivo criar um ambiente virtual para fins educacionais, que possibilite a execução de softwares como MySQL, Node.js e Python. A atividade integra conceitos de **Sistemas Operacionais**, **Redes de Computadores**, **Levantamento de Requisitos** e **Lógica de Programação**. No projeto, será realizada a pesquisa de componentes para a montagem de um computador com custo máximo de R$ 5.000,00, a configuração de uma máquina virtual e a instalação de uma distribuição Linux gratuita, escolhida com base na compatibilidade e facilidade de uso.
+This project aims to create a virtual environment for educational purposes, enabling the execution of software such as MySQL, Node.js, and Python. The activity integrates concepts from **Operating Systems**, **Computer Networks**, **Requirements Gathering**, and **Programming Logic**. The project involves researching components to build a computer with a maximum cost of R$ 5,000.00, configuring a virtual machine, and installing a free Linux distribution chosen based on compatibility and ease of use.
 
----
+Requirements Gathering
+----------------------
 
-## Levantamento de Requisitos
+### Requirements for the Physical Computer
 
-### Requisitos para o Computador Físico
+-   **Processor (CPU):** Good performance for multitasking.
 
-- **Processador (CPU):** Bom desempenho para multitarefa.
-- **Memória RAM:** Idealmente 8GB (conforme o orçamento).
-- **Armazenamento:** SSD para melhor desempenho.
-- **Outros:** Placa-mãe, fonte de alimentação, etc.
-- **Orçamento Máximo:** R$ 5.000,00
+-   **RAM:** Ideally 8GB (depending on the budget).
 
-### Requisitos para a Máquina Virtual
+-   **Storage:** SSD for better performance.
 
-- **Memória:** 4096 MB
-- **CPU:** 6 Processadores
-- **Armazenamento:** 2,00 GB
-- **Rede:** NAT
----
+-   **Other:** Motherboard, power supply, etc.
 
-## Pesquisa e Orçamento de Componentes
+-   **Maximum Budget:** R$ 5,000.00 (approx. $925 USD)
 
-### Processador (CPU)
+### Requirements for the Virtual Machine
 
-- **AMD Ryzen 5 5600G**
-  - Preço aproximado: R$ 1.000,00
-  - Justificativa: O Ryzen 5 5600G é um processador de 6 núcleos e 12 threads com ótimo desempenho para multitarefa e boa eficiência energética, adequado para aplicações como MySQL, Node.js e Python.
-  - [Link para Processador](https://www.kabum.com.br/produto/134233/processador-amd-ryzen-5-5600g-4-4ghz-box)
+-   **Memory:** 4096 MB
 
-### Memória RAM
+-   **CPU:** 6 Processors
 
-- **Corsair Vengeance LPX, 32GB (2x16GB) 3200MHz DDR4 CL16**
-  - Preço aproximado: R$ 700,00
-  - Justificativa: O kit de 32GB oferece mais do que o suficiente para multitarefa em um ambiente de desenvolvimento, permitindo a execução simultânea de vários serviços como MySQL e Node.js.
-  - [Link para Memória RAM](https://www.kabum.com.br/produto/102852/memoria-corsair-vengeance-lpx-32gb-2x16gb-3200mhz-ddr4-cl16-preto)
+-   **Storage:** 2.00 GB
 
-### Armazenamento (SSD)
+-   **Network:** NAT
 
-- **SSD Sandisk Plus - 500GB, NVMe, M.2 2280**
-  - Preço aproximado: R$ 330,00
-  - Justificativa: SSD NVMe oferece excelente velocidade de leitura e gravação, ideal para o desempenho do sistema operacional e dos aplicativos.
-  - [Link para SSD](https://www.kabum.com.br/produto/120003/ssd-sandisk-plus-500gb-nvme-m-2-2280)
+Component Research and Budgeting
+--------------------------------
 
-### Placa-Mãe
+*Note: USD prices are approximate and based on an exchange rate of 1 USD = 5.40 BRL.*
 
-- **ASRock B450M Steel Legend Micro ATX AM4**
-  - Preço aproximado: R$ 600,00
-  - Justificativa: A ASRock B450M oferece boa performance com suporte para o processador Ryzen 5 5600G, possui boas opções de conectividade e é uma boa escolha em termos de custo-benefício.
-  - [Link para Placa-Mãe](https://www.kabum.com.br/produto/129076/placa-mae-asrock-b450m-steel-legend-micro-atx-am4)
+### Processor (CPU)
 
-### Fonte de Alimentação
+-   **AMD Ryzen 5 5600G**
 
-- **MSI MAG A850GL PCIE5, 850W, 80 Plus Gold, Full Modular**
-  - Preço aproximado: R$ 600,00
-  - Justificativa: Fonte de alimentação de alta qualidade com 850W, eficiência 80 Plus Gold e certificação PCIe 5, que garante estabilidade e segurança para o sistema.
-  - [Link para Fonte](https://www.kabum.com.br/produto/103273/fonte-msi-mag-a850gl-pcie5-850w-80-plus-gold-full-modular)
+    -   Approximate Price: R$ 1,000.00 (approx. $185 USD)
 
-### Teclado
+    -   Justification: The Ryzen 5 5600G is a 6-core, 12-thread processor with excellent multitasking performance and good energy efficiency, suitable for applications like MySQL, Node.js, and Python.
 
-- **Teclado Redragon Lakshmi, Switch Brown, Layout 60%, ABNT2**
-  - Preço aproximado: R$ 300,00
-  - Justificativa: Teclado compacto e eficiente, com switches mecânicos tipo Brown, ideal para jogos e produtividade. O layout ABNT2 é compatível com o padrão brasileiro.
-  - [Link para Teclado](https://www.kabum.com.br/produto/117801/teclado-gamer-redragon-lakshmi-switch-brown-layout-60-abnt2)
+    -   [Link to Processor](https://www.kabum.com.br/produto/134233/processador-amd-ryzen-5-5600g-4-4ghz-box "null")
+
+### RAM
+
+-   **Corsair Vengeance LPX, 32GB (2x16GB) 3200MHz DDR4 CL16**
+
+    -   Approximate Price: R$ 700.00 (approx. $130 USD)
+
+    -   Justification: The 32GB kit offers more than enough memory for multitasking in a development environment, allowing the simultaneous execution of multiple services like MySQL and Node.js.
+
+    -   [Link to RAM](https://www.kabum.com.br/produto/102852/memoria-corsair-vengeance-lpx-32gb-2x16gb-3200mhz-ddr4-cl16-preto "null")
+
+### Storage (SSD)
+
+-   **SanDisk Plus SSD - 500GB, NVMe, M.2 2280**
+
+    -   Approximate Price: R$ 330.00 (approx. $61 USD)
+
+    -   Justification: An NVMe SSD offers excellent read and write speeds, ideal for the performance of the operating system and applications.
+
+    -   [Link to SSD](https://www.kabum.com.br/produto/120003/ssd-sandisk-plus-500gb-nvme-m-2-2280 "null")
+
+### Motherboard
+
+-   **ASRock B450M Steel Legend Micro ATX AM4**
+
+    -   Approximate Price: R$ 600.00 (approx. $111 USD)
+
+    -   Justification: The ASRock B450M offers good performance with support for the Ryzen 5 5600G processor, has good connectivity options, and is a great choice in terms of cost-effectiveness.
+
+    -   [Link to Motherboard](https://www.kabum.com.br/produto/129076/placa-mae-asrock-b450m-steel-legend-micro-atx-am4 "null")
+
+### Power Supply
+
+-   **MSI MAG A850GL PCIE5, 850W, 80 Plus Gold, Full Modular**
+
+    -   Approximate Price: R$ 600.00 (approx. $111 USD)
+
+    -   Justification: A high-quality power supply with 850W, 80 Plus Gold efficiency, and PCIe 5 certification, ensuring stability and safety for the system.
+
+    -   [Link to Power Supply](https://www.kabum.com.br/produto/103273/fonte-msi-mag-a850gl-pcie5-850w-80-plus-gold-full-modular "null")
+
+### Keyboard
+
+-   **Redragon Lakshmi Keyboard, Brown Switch, 60% Layout, ABNT2**
+
+    -   Approximate Price: R$ 300.00 (approx. $56 USD)
+
+    -   Justification: A compact and efficient keyboard with Brown mechanical switches, ideal for gaming and productivity. The ABNT2 layout is compatible with the Brazilian standard.
+
+    -   [Link to Keyboard](https://www.kabum.com.br/produto/117801/teclado-gamer-redragon-lakshmi-switch-brown-layout-60-abnt2 "null")
 
 ### Mouse
 
-- **Mouse Redragon Cobra Chroma M711**
-  - Preço aproximado: R$ 100,00
-  - Justificativa: Mouse com bom custo-benefício, com design ergonômico e sensor preciso para aplicações de desenvolvimento e jogos.
-  - [Link para Mouse](https://www.kabum.com.br/produto/119024/mouse-redragon-cobra-chroma-m711)
+-   **Redragon Cobra Chroma M711 Mouse**
+
+    -   Approximate Price: R$ 100.00 (approx. $19 USD)
+
+    -   Justification: A cost-effective mouse with an ergonomic design and a precise sensor for development and gaming applications.
+
+    -   [Link to Mouse](https://www.kabum.com.br/produto/119024/mouse-redragon-cobra-chroma-m711 "null")
 
 ### Monitor
 
-- **Monitor AOC 24G2E1 23.8″ 1920 x 1080 100 Hz**
-  - Preço aproximado: R$ 1.100,00
-  - Justificativa: Monitor com boa resolução e taxa de atualização de 100 Hz, oferecendo uma experiência visual mais fluida e confortável para o trabalho.
-  - [Link para Monitor](https://www.kabum.com.br/produto/122345/monitor-aoc-24g2e1-23-8-1920-x-1080-100-hz)
- ---
-  ### Total: R$4730,00
+-   **AOC 24G2E1 23.8" 1920 x 1080 100 Hz Monitor**
 
----
-## Configuração
+    -   Approximate Price: R$ 1,100.00 (approx. $204 USD)
 
-- Processador: AMD Ryzen 5 5600G
-- Memória RAM: Corsair Vengeance LPX 32GB (2x16GB) 3200MHz DDR4
-- Armazenamento (SSD): Sandisk Plus 500GB NVMe M.2
-- Placa-Mãe: ASRock B450M Steel Legend Micro ATX AM4
-- Fonte de Alimentação: MSI MAG A850GL 850W 80 Plus Gold
-- Teclado: Redragon Lakshmi Switch Brown Layout 60% ABNT2
-- Mouse: Redragon Cobra Chroma M711
-- Monitor: AOC 24G2E1 23.8″ 100Hz
+    -   Justification: A monitor with good resolution and a 100 Hz refresh rate, offering a smoother and more comfortable visual experience for work.
 
----
+    -   [Link to Monitor](https://www.kabum.com.br/produto/122345/monitor-aoc-24g2e1-23-8-1920-x-1080-100-hz "null")
 
-## Escolha do Sistema Operacional
+### Total: R$ 4,730.00 (approx. $876 USD)
 
-Após comparar diversas distribuições Linux, a escolha recaiu sobre o **Ubuntu 22.04.5 LTS (Jammy Jellyfish)**, devido à sua compatibilidade e facilidade de uso.
+Configuration
+-------------
 
----
+-   **Processor:** AMD Ryzen 5 5600G
 
-## Manual de Instalação do Linux no VirtualBox
+-   **RAM:** Corsair Vengeance LPX 32GB (2x16GB) 3200MHz DDR4
 
-### Pré-requisitos
+-   **Storage (SSD):** SanDisk Plus 500GB NVMe M.2
 
-- **VirtualBox:** Baixe e instale a versão mais recente do [VirtualBox](https://www.virtualbox.org/).
-- **Imagem ISO do Linux:** Faça o download da imagem ISO do Ubuntu em [Ubuntu Download](https://ubuntu.com/download).
+-   **Motherboard:** ASRock B450M Steel Legend Micro ATX AM4
 
----
+-   **Power Supply:** MSI MAG A850GL 850W 80 Plus Gold
 
-### Passo a Passo
+-   **Keyboard:** Redragon Lakshmi Switch Brown 60% Layout ABNT2
 
-#### 1. Instalação do VirtualBox
+-   **Mouse:** Redragon Cobra Chroma M711
 
-1. Acesse o site do VirtualBox e baixe a versão para o seu sistema operacional.
-2. Siga as instruções de instalação fornecidas.
-3. Após a instalação, abra o **VirtualBox**.
+-   **Monitor:** AOC 24G2E1 23.8" 100Hz
 
-#### 2. Criação da Máquina Virtual
+Operating System Choice
+-----------------------
 
+After comparing several Linux distributions, the choice was **Ubuntu 22.04.5 LTS (Jammy Jellyfish)**, due to its compatibility and ease of use.
 
-1. **Clique em "Novo":**
-   - **Nome:** VM-EDUCU
-   - **Tipo:** Linux
-   - **Versão:** Ubuntu 22.04.5 LTS (Jammy Jellyfish)
-   
-![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/1.png?raw=true)
+Linux Installation Manual on VirtualBox
+---------------------------------------
 
-2. **Configuração de Memória:**
-   - Alocar **4096 MB** de memória RAM para a máquina virtual.
-  
-![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/2.png?raw=true)
+### Prerequisites
 
-4. **Criação do Disco Rígido Virtual:**
-   - Selecione a opção **Criar disco rígido agora**.
-   - Escolha o tipo de arquivo de disco **VDI (VirtualBox Disk Image)**.
-   - Selecione a opção **dinâmico** para o tamanho do disco (por exemplo, **2 GB**).
-  
-![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/3.png?raw=true)
+-   **VirtualBox:** Download and install the latest version from [VirtualBox](https://www.virtualbox.org/ "null").
 
-#### 3. Configuração de Rede
+-   **Linux ISO Image:** Download the Ubuntu ISO image from [Ubuntu Download](https://ubuntu.com/download "null").
 
-![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/5.png?raw=true)
+### Step-by-Step
 
-1. Selecione a máquina virtual criada e clique em **Configurações**.
-2. Acesse a aba **Rede** e configure como **NAT** 
+#### 1\. Installing VirtualBox
 
-![Imagem](https://github.com/Italo-makerspace/Montagem-de-Ambiente-Virtual/blob/main/5.png?raw=true)
+1.  Go to the VirtualBox website and download the version for your operating system.
 
-#### 4. Configuração do Disco de Instalação
+2.  Follow the provided installation instructions.
 
-1. Acesse as configurações da máquina virtual e vá até a aba **Armazenamento**.
-2. Selecione a opção de **unidade óptica** e adicione a imagem ISO do Ubuntu baixada.
+3.  After installation, open **VirtualBox**.
 
-#### 5. Iniciando a Instalação do Ubuntu
+#### 2\. Creating the Virtual Machine
 
-1. **Inicie a Máquina Virtual:**
-   - Clique em **Iniciar** para carregar o Ubuntu a partir da ISO.
-   
-2. **Instalação Passo a Passo:**
-   - Selecione o idioma de preferência.
-   - Escolha as configurações de teclado.
-   - Configure a rede e a instalação.
-   - Se solicitado, conecte à internet para atualizações.
+1.  **Click "New":**
 
-```bash
+    -   **Name:** VM-EDUCU
+
+    -   **Type:** Linux
+
+    -   **Version:** Ubuntu 22.04.5 LTS (Jammy Jellyfish)
+![Image](https://github.com/italo-makerspace/Educational-Virtual-Environment/blob/main/1.png?raw=true)
+
+2.  **Memory Configuration:**
+
+    -   Allocate **4096 MB** of RAM to the virtual machine.
+![Image](https://github.com/italo-makerspace/Educational-Virtual-Environment/blob/main/2.png?raw=true)
+
+3.  **Virtual Hard Disk Creation:**
+
+    -   Select the **Create a virtual hard disk now** option.
+
+    -   Choose the disk file type **VDI (VirtualBox Disk Image)**.
+
+    -   Select the **Dynamically allocated** option for the disk size (e.g., **2 GB**).
+![Image](https://github.com/italo-makerspace/Educational-Virtual-Environment/blob/main/3.png?raw=true)
+
+#### 3\. Network Configuration
+
+![Image](https://github.com/italo-makerspace/Educational-Virtual-Environment/blob/main/4.png?raw=true)
+
+1.  Select the created virtual machine and click on **Settings**.
+
+2.  Go to the **Network** tab and configure it as **NAT**.
+
+![Image](https://github.com/italo-makerspace/Educational-Virtual-Environment/blob/main/5.png?raw=true)
+
+#### 4\. Installation Disk Configuration
+
+1.  Go to the virtual machine settings and navigate to the **Storage** tab.
+
+2.  Select the **optical drive** option and add the downloaded Ubuntu ISO image.
+
+#### 5\. Starting the Ubuntu Installation
+
+1.  **Start the Virtual Machine:**
+
+    -   Click **Start** to load Ubuntu from the ISO.
+
+2.  **Step-by-Step Installation:**
+
+    -   Select your preferred language.
+
+    -   Choose keyboard settings.
+
+    -   Configure the network and installation.
+
+    -   If prompted, connect to the internet for updates.
+
+```
 mysql --version
 node -v
 python3 --version
+
 ```
----
 
-## Considerações Finais
+Final Considerations
+--------------------
 
-### Lições Aprendidas
+### Lessons Learned
 
-Neste projeto, várias lições importantes foram tiradas, tanto na parte do hardware quanto na configuração e uso de ambientes virtuais. As principais lições incluem:
+Several important lessons were learned in this project, both on the hardware side and in the configuration and use of virtual environments. The main lessons include:
 
-1. **Escolha dos Componentes de Hardware:**
-   - A escolha dos componentes certos é fundamental para montar um sistema equilibrado dentro de um orçamento limitado. Foi importante entender as necessidades de desempenho e compatibilidade entre o **AMD Ryzen 5 5600G** e a **Corsair Vengeance LPX 32GB**, garantindo uma boa performance para multitarefa e desenvolvimento sem ultrapassar o orçamento.
+1.  **Hardware Component Selection:**
 
-2. **Configuração da Máquina Virtual:**
-   - A configuração do ambiente virtual foi uma etapa valiosa para entender como alocar recursos de maneira eficiente, como memória e núcleos de CPU. Além disso, foi necessário configurar o acesso à internet e outros recursos para instalar o sistema operacional e os softwares necessários.
-   - A escolha do **Ubuntu 22.04.5 LTS** se mostrou acertada devido à facilidade de uso e grande suporte da comunidade, o que facilitou todo o processo.
+    -   Choosing the right components is crucial for building a balanced system within a limited budget. It was important to understand the performance and compatibility needs between the **AMD Ryzen 5 5600G** and the **Corsair Vengeance LPX 32GB**, ensuring good performance for multitasking and development without exceeding the budget.
 
-3. **Instalação e Testes de Softwares:**
-   - A instalação e testes de ferramentas como **MySQL**, **Node.js** e **Python** em uma máquina virtual ajudaram a entender como diferentes ambientes podem ser usados para rodar aplicativos de forma eficaz.
-   - Embora o uso de **Docker** não tenha sido explorado no projeto, ele é uma boa alternativa para gerenciar versões de software e criar ambientes isolados, o que seria uma boa prática para o futuro.
-  
---- 
+2.  **Virtual Machine Configuration:**
 
-### Sugestões de Melhoria
+    -   Configuring the virtual environment was a valuable step in understanding how to allocate resources efficiently, such as memory and CPU cores. Additionally, it was necessary to configure internet access and other resources to install the operating system and required software.
 
-Apesar do projeto ter sido concluído com sucesso, sempre existem áreas para melhorar. Algumas sugestões incluem:
+    -   The choice of **Ubuntu 22.04.5 LTS** proved to be correct due to its ease of use and large community support, which facilitated the entire process.
 
-1. **Considerar o Uso de Docker ou Containers:**
-   - O uso de **Docker** ou outras ferramentas de containerização poderia ser uma forma mais eficiente de criar ambientes isolados para desenvolvimento, além de tornar o processo de configuração mais rápido e flexível. Isso permitiria maior controle sobre as versões dos softwares e uma melhor escalabilidade.
+3.  **Software Installation and Testing:**
 
-2. **Aumentar a Memória RAM ou Armazenamento:**
-   - Embora o orçamento tenha sido respeitado, seria interessante considerar a ampliação da memória RAM para 16GB ou mais, dependendo da demanda do ambiente. Além disso, aumentar a capacidade do SSD (por exemplo, para 1TB) poderia proporcionar mais flexibilidade para armazenar projetos maiores.
+    -   Installing and testing tools like **MySQL**, **Node.js**, and **Python** in a virtual machine helped in understanding how different environments can be used to run applications effectively.
 
-3. **Melhorar a Rede e Conectividade:**
-   - A configuração de rede poderia ser otimizada, por exemplo, utilizando redes **Bridge** para um acesso mais direto à internet. Isso ajudaria a melhorar a performance da máquina virtual, especialmente para tarefas que exigem maior largura de banda.
+    -   Although **Docker** was not explored in the project, it is a good alternative for managing software versions and creating isolated environments, which would be a good practice for the future.
 
-4. **Automatizar o Processo de Instalação:**
-   - A automação do processo de instalação e configuração poderia ser uma melhoria importante. Utilizar ferramentas como **Ansible** ou **Terraform** para criar e configurar ambientes automaticamente tornaria o processo mais eficiente e consistente, o que seria útil, especialmente em ambientes educacionais com múltiplos usuários.
+### Suggestions for Improvement
 
-5. **Experimentar Outras Distribuições Linux:**
-   - Embora o **Ubuntu** tenha atendido bem às necessidades do projeto, explorar outras distribuições Linux, como **Fedora** ou **Debian**, pode ser interessante para entender suas diferenças e vantagens em relação ao Ubuntu. Isso ajudaria a expandir o conhecimento sobre as opções de sistemas operacionais.
+Although the project was successfully completed, there are always areas for improvement. Some suggestions include:
 
-6. **Implementar Soluções de Backup e Recuperação:**
-   - Implementar uma solução de backup para ambientes virtuais e sistemas operacionais seria uma medida importante para garantir a proteção dos dados. Isso é especialmente relevante em projetos educacionais, onde a perda de dados pode afetar negativamente o andamento das atividades.
+1.  **Consider Using Docker or Containers:**
 
+    -   Using **Docker** or other containerization tools could be a more efficient way to create isolated development environments, in addition to making the configuration process faster and more flexible. This would allow for greater control over software versions and better scalability.
+
+2.  **Increase RAM or Storage:**
+
+    -   Although the budget was respected, it would be interesting to consider expanding the RAM to 16GB or more, depending on the environment's demand. Additionally, increasing the SSD capacity (e.g., to 1TB) could provide more flexibility for storing larger projects.
+
+3.  **Improve Network and Connectivity:**
+
+    -   The network configuration could be optimized, for example, by using **Bridged** networking for more direct internet access. This would help improve the virtual machine's performance, especially for tasks requiring higher bandwidth.
+
+4.  **Automate the Installation Process:**
+
+    -   Automating the installation and configuration process could be a significant improvement. Using tools like **Ansible** or **Terraform** to create and configure environments automatically would make the process more efficient and consistent, which would be useful, especially in educational environments with multiple users.
+
+5.  **Experiment with Other Linux Distributions:**
+
+    -   Although **Ubuntu** met the project's needs well, exploring other Linux distributions, such as **Fedora** or **Debian**, could be interesting to understand their differences and advantages over Ubuntu. This would help expand knowledge about operating system options.
+
+6.  **Implement Backup and Recovery Solutions:**
+
+    -   Implementing a backup solution for virtual environments and operating systems would be an important measure to ensure data protection. This is especially relevant in educational projects, where data loss can negatively affect the progress of activities.
